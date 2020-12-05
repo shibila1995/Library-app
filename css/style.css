@@ -2,5 +2,13 @@
 {
     background-color:rgb(168, 125, 125);
     border-style: solid;
-    border-color: red;
+    border-color:black;
 }
+.textstyle
+{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+

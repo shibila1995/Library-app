@@ -10,10 +10,12 @@
 <body class = "backcolour">
     <div class="container">
         <div class="row">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-               <center><h1>book details</h1></center> 
-                <table class="table">
-                    <tr>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+               <center><h1>Book details</h1></center> 
+                <table class="table table-borderless textstyle">
+                    
+         <tr>
                         <td>name</td>
             
                         <td><input type="text" class="formcontrol"></td>
@@ -24,10 +26,16 @@
                     </tr>
                     <tr>
                         <td>catergory</td>
-                        <td><input type="checkbox" class="formcontrol">novel</td>
-                        <td><input type="checkbox" class="formcontrol">fiction</td>
-                        <td><input type="checkbox" class="formcontrol">biography</td>
-                        <td><input type="checkbox" class="formcontrol">shortstory</td>
+                        <td>
+                            
+                                <span>
+                                <input type="checkbox" class="formcontrol" > <label>Fiction</label>
+                                <input type="checkbox" class="formcontrol"> <label>History</label>
+                                <input type="checkbox" class="formcontrol"> <label>Science</label>
+                            </span>
+                            
+                                
+                       </td>
                     </tr>
             <tr>
                 <td>distributor</td>
@@ -43,10 +51,15 @@
             </tr>
             <tr>
                 <td></td>
-                <td><Button class="btn btn-info">submit</Button></td>
+                <td><button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="fill all fields">
+                   Submit
+                  </button></td>
             </tr>
+            
                 </table>
+           
             </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
         </div>
     </div>
     
